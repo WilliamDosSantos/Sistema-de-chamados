@@ -1,0 +1,13 @@
+.title {
+  align-items: center;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  display: flex;
+  margin: 1em 0;
+  padding: .8em;
+}
+
+.title span {
+  margin-left: 1em;
+  font-size: 1.5em;
+}

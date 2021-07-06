@@ -1,0 +1,72 @@
+.container {
+  align-items: center;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  display: flex;
+  margin-bottom: 1em;
+  padding: .8em;
+}
+
+.label-avatar {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  justify-content: center;
+  width: 280px;
+}
+
+.label-avatar input {
+  display: none;
+}
+
+.label-avatar span {
+  opacity: 0.7;
+  position: absolute;
+  transition: all .5s;
+  z-index: 99;
+}
+
+.label-avatar span:hover {
+  opacity: 1;
+  transform: scale(1.4);
+}
+
+.form-profile img {
+  border-radius: 50%;
+  margin-bottom: 1em;
+  object-fit: cover;
+}
+
+.form-profile label {
+  font-size: 1.4em;
+  margin-bottom: .5em;
+}
+
+.form-profile input, textarea, select {
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  max-width: 600px;
+  padding: .7em;
+}
+
+.form-profile input:disabled {
+  cursor: not-allowed;
+}
+
+.form-profile button {
+  max-width: 600px;
+}
+
+.logout-btn {
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #121212;
+  border-radius: 5px;
+  display: flex;
+  font-size: 1.5em;
+  justify-content: center;
+  padding: 8px 20px;
+}
